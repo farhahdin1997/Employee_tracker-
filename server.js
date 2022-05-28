@@ -2,6 +2,7 @@ const inquirer = require("inquirer");
 const mysql = require("mysql");
 //Table
 const cTable = require("console.table");
+require("dotenv").config();
 
 //Choices 
 const choiceOptions = ["View all employees", "View all departments", "View all roles", "Update role", "Add department", "Add employee", "Remove employee", "Exit"]
@@ -11,9 +12,9 @@ const connection = mysql.createConnection({
     // Your port; if not 3306
     port: 3306,
     // Your username
-    user: "root",
+    user:process.env.DB_USER,
     password: process.env.DB_PASSWORD,
-    database: 'tracker_db'
+    database: process.env.DB_NAME,
 });
 
 console.log(`Welcome to the Employee Tracker! What would you like to do?`);

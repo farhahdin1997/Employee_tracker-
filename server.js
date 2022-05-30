@@ -5,7 +5,7 @@ const cTable = require("console.table");
 require("dotenv").config();
 
 //Choices 
-const choiceOptions = ["View all employees", "View all departments", "View all roles", "Update role", "Add department", "Add employee", "Remove employee", "Exit"]
+const choice = ["View all employees", "View all departments", "View all roles", "Update role", "Add department", "Add employee", "Remove employee", "Exit"]
 
 const connection = mysql.createConnection({
     host: "127.0.0.1",
@@ -25,7 +25,7 @@ const start = () => {
             name: "optionChoices",
             type: 'list',
             message: "Please select an option?",
-            choices: choiceOptions
+            choices: choice
 
         }).then(answer => {
             switch (answer.optionChoices){
@@ -61,16 +61,31 @@ const start = () => {
 
          // VIEW ALL EMPLOYEES
          const viewEmployees = () => {
-         };
+        connection.query("SELECT * FROM employees", function(err, results){
+                if(err) throw err;
+                console.table(results);
+                start();
+            });
+}
+           
 
         // VIEW DEPARTMENT
         const viewDepartment = () => {
           
+            connection.query("SELECT * FROM departments", function(err, results){
+                if(err) throw err;
+                console.table(results);
+                start();
+            });
         };
 
         // VIEW ROLES
         const viewRoles = () => {
-            
+            connection.query("SELECT * FROM roles", function(err, results){
+                if(err) throw err;
+                console.table(results);
+                start();
+            });
         };
 
          // UPDATE ROLE
@@ -78,10 +93,32 @@ const start = () => {
                
         };
 
-        // ADD DEPARTMENT
-        const addDepartment = () => {
-           
-        };
+        // // ADD DEPARTMENT
+        // const addDepartment = () => {
+    
+        //     }
+       
+    function addDepartment() {
+        inquirer.prompt([
+           {
+             type: 'input',
+             message: 'What is the name of the new department you would like to add?',
+             name: 'adding',
+        
+           }
+         ]).then(function(answer){
+           connection.query(
+             "INSERT INTO department (name) VALUES (?)",
+             [answer.adding],
+             (err, results) =>{
+               if(err) throw err
+             console.log("New department added"); 
+             
+                 start();
+               }
+               )
+            })};
+   
 
         // ADD EMPLOYEE
         const addEmployee = () => {

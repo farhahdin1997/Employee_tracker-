@@ -5,7 +5,7 @@ const cTable = require("console.table");
 require("dotenv").config();
 
 //Declaring the choices
-const choice = ["View all employees", "View all departments", "View all roles", "Update role", "Add department", "Add employee","Add role", "Remove employee", "Exit"]
+const choice = ["View all employees", "View all departments", "View all roles", "Update role", "Add department", "Add employee","Add role", "Exit"]
 
 //Connecting to the database
 const connection = mysql.createConnection({
@@ -50,9 +50,8 @@ const start = () => {
                  case "Add role":
                   addRole();
                   break;
-                 case "Remove employee":
-                 removeEmployee();
-                 break;
+                
+         
                 case "Exit":
                     // console.log("Thank you for using Employee Tracker!");
                     connection.end();

@@ -191,11 +191,11 @@ const start = () => {
             });
             }
 
-  //       // UPDATE ROLE
-  //      const updateRole = () => {
+// //UPDATING ROLE
+//  function updateRole() {
+  
+// }             
 
-               
-  // };
 
           //Start the connection
       connection.connect(err => {

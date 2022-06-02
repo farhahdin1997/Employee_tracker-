@@ -47,6 +47,6 @@ THEN I am prompted to select an employee to update and their new role and this i
 9. node server
 ```
 ## Demo
-![Uploading Untitled_ Jun 2, 2022 1_17 PM.gif…]()
+![Untitled_ Jun 2, 2022 1_17 PM](https://user-images.githubusercontent.com/81389441/171628512-166f4f75-7422-44d6-8a27-877e99295175.gif)
 
 

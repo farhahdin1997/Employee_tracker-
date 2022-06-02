@@ -34,5 +34,19 @@ WHEN I choose to update an employee role
 THEN I am prompted to select an employee to update and their new role and this information is updated in the database 
 ```
 
+## Installation
+```
+1. npm install
+2. Add password and username in .env file
+3. Open docker - run sql
+4. mysql -h127.0.0.1 -uroot -p
+5. Enter password
+6. source scheama.sql
+7. source seed.sql
+8. Exit
+9. node server
+```
+## Demo
+![Uploading Untitled_ Jun 2, 2022 1_17 PM.gif…]()
 
 

@@ -12,9 +12,9 @@ Provide a short description explaining the what, why, and how of your project. U
 - 
 ## Table of Contents
 1. [Technolgies](#technolgies)
-2. [Installation](#installation)
+2. [Installation and Getting Started](#installationAndGetingStarted)
 3. [Usage](#usage)
-4. [Future Development](#futureDevelopment)
+4. [Future Developments](#futureDevelopments)
 5. [Lisence](#license)
 
 ## Technologies

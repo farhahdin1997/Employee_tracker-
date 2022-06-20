@@ -3,12 +3,19 @@
 # What is the Employee Tracker
 Developers frequently have to create interfaces that allow non-developers to easily view and interact with information stored in databases. These interfaces are called content management systems (CMS).I have built a command-line application to manage a company's employee database, using Node.js, Inquirer, and MySQL.
 
-Short description of the purpose that lies behind the development and maintenance of the software, explaining Why it exists.
+Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
 
+- What was your motivation?
+- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
+- What problem does it solve?
+- What did you learn?
+- 
 ## Table of Contents
 1. [Technolgies](#technolgies)
 2. [Installation](#installation)
-
+3. [Usage](#usage)
+4. [Future Development](#futureDevelopment)
+5. [Lisence](#license)
 
 ## Technologies
 A list of technologies used within the project:
@@ -31,11 +38,18 @@ $ Exit
 $ node server
 ```
 
+## Usage
 ![Untitled_ Jun 2, 2022 1_17 PM](https://user-images.githubusercontent.com/81389441/171628923-5c66ecca-59e5-42bb-9568-89f8b5a8cac9.gif)
-
 https://drive.google.com/file/d/1R8zCf6aZz9kAYJXbM24kBd1pmVaKUlS7/view
 
- ADD IN FUTURE DEV
+## Future Developments 
+For future developments of this application, I would ,like to add the following feautres: 
+
+- Update employee managers
+- View employees by manager
+- View employees by department
+- Dlete departments, roles, and employees.
+- View the total utilized budget of a department—in other words, the combined salaries of all employees in that department.
 
 ## License
 MIT License Copyright 2021 Farhah Din

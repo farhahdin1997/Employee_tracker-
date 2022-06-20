@@ -6,8 +6,8 @@ Developers frequently have to create interfaces that allow non-developers to eas
 Short description of the purpose that lies behind the development and maintenance of the software, explaining Why it exists.
 
 ## Table of Contents
-1. [technolgies](#technolgies)
-2. [](#)
+1. [Technolgies](#technolgies)
+2. [Installation](#installation)
 
 ## Technologies
 

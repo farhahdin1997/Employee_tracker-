@@ -32,8 +32,8 @@ $ node server
 ```
 
 ## Usage
-![Untitled_ Jun 2, 2022 1_17 PM](https://user-images.githubusercontent.com/81389441/171628923-5c66ecca-59e5-42bb-9568-89f8b5a8cac9.gif) <br>
-https://drive.google.com/file/d/1R8zCf6aZz9kAYJXbM24kBd1pmVaKUlS7/view
+
+<img width="1440" alt="Screenshot 2022-06-20 at 20 01 53" src="https://user-images.githubusercontent.com/81389441/174664126-b0e73a08-2271-429c-aff2-0c36ddc14044.png">
 
 ## Future Developments 
 For future developments of this application, I would ,like to add the following feautres: 

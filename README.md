@@ -29,7 +29,7 @@ $ source scheama.sql
 $ source seed.sql
 $ Exit
 $ node server
-
+```
 
 
 ![Untitled_ Jun 2, 2022 1_17 PM](https://user-images.githubusercontent.com/81389441/171628923-5c66ecca-59e5-42bb-9568-89f8b5a8cac9.gif)

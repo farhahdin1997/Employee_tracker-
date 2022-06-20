@@ -12,17 +12,17 @@ Provide a short description explaining the what, why, and how of your project. U
 - 
 ## Table of Contents
 1. [Technolgies](#technolgies)
-2. [Installation and Getting Started](#installationAndGetingStarted)
+2. [Installation and Getting Started](#installation)
 3. [Usage](#usage)
 4. [Future Developments](#futureDevelopments)
-5. [Lisence](#license)
+5. [Licence](#license)
 
 ## Technologies
 A list of technologies used within the project:
 - Node.Js
 - MYSQL
 
-## Installation and Getting Started
+## Installation 
 A little intro about the installation. 
 ```
 $ git clone git@github.com:farhahdin1997/weatherApp.git

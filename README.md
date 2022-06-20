@@ -1,6 +1,6 @@
-## 12 SQL: Employee Tracker
+# 12 SQL: Employee Tracker
 
-# What is the Employee Tracker
+## What is the Employee Tracker
 Developers frequently have to create interfaces that allow non-developers to easily view and interact with information stored in databases. These interfaces are called content management systems (CMS).I have built a command-line application to manage a company's employee database, using Node.js, Inquirer, and MySQL.
 
 ## Table of Contents

@@ -9,13 +9,13 @@ Short description of the purpose that lies behind the development and maintenanc
 1. [Technolgies](#technolgies)
 2. [Installation](#installation)
 
-## Technologies
 
+## Technologies
 A list of technologies used within the project:
 - Node.Js
 - MYSQL
 
-## Installation
+## Installation and Getting Started
 A little intro about the installation. 
 ```
 $ git clone git@github.com:farhahdin1997/weatherApp.git
@@ -30,7 +30,6 @@ $ source seed.sql
 $ Exit
 $ node server
 ```
-
 
 ![Untitled_ Jun 2, 2022 1_17 PM](https://user-images.githubusercontent.com/81389441/171628923-5c66ecca-59e5-42bb-9568-89f8b5a8cac9.gif)
 

@@ -32,7 +32,7 @@ $ node server
 ```
 
 ## Usage
-![Untitled_ Jun 2, 2022 1_17 PM](https://user-images.githubusercontent.com/81389441/171628923-5c66ecca-59e5-42bb-9568-89f8b5a8cac9.gif)
+![Untitled_ Jun 2, 2022 1_17 PM](https://user-images.githubusercontent.com/81389441/171628923-5c66ecca-59e5-42bb-9568-89f8b5a8cac9.gif) <br>
 https://drive.google.com/file/d/1R8zCf6aZz9kAYJXbM24kBd1pmVaKUlS7/view
 
 ## Future Developments 

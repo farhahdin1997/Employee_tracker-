@@ -3,13 +3,6 @@
 # What is the Employee Tracker
 Developers frequently have to create interfaces that allow non-developers to easily view and interact with information stored in databases. These interfaces are called content management systems (CMS).I have built a command-line application to manage a company's employee database, using Node.js, Inquirer, and MySQL.
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-- 
 ## Table of Contents
 1. [Technolgies](#technologies)
 2. [Installation](#installation)

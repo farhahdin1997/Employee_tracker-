@@ -14,7 +14,7 @@ Provide a short description explaining the what, why, and how of your project. U
 1. [Technolgies](#technologies)
 2. [Installation](#installation)
 3. [Usage](#usage)
-4. [Future Developments](#future Developments )
+4. [Future Developments](#futureDevelopments )
 5. [Licence](#license)
 
 ## Technologies
